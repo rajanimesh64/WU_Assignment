@@ -1,7 +1,8 @@
 Assignment README
 Overview
 
-This repository contains the code for an assignment completed as part of [WU Assessment]. The assignment involved [java+selenium+karate framework].
+This repository contains the code for an assignment completed as part of [WU Assessment]. The assignment involved java+selenium+karate framework.
+
 Project Structure
 
 The project structure is organized as follows:
@@ -12,9 +13,9 @@ The project structure is organized as follows:
 
 Features Implemented
 
-    [Feature 1]: Description of the first feature implemented.
-    [Feature 2]: Description of the second feature implemented.
-    [Feature 3]: Description of the third feature implemented.
+    [Feature 1]: Link retrieval on a webpage using different java features.
+    [Feature 2]: karate feature file with different request
+    [Feature 3]: Validating stock prices and comparing hashmaps
 
 Technologies Used
 
@@ -32,7 +33,7 @@ To run the project locally, follow these steps:
 
     bash
 
-git clone https://github.com/your-username/assignment.git
+git clone https://github.com/rajanimesh64/WU_Assignment.git
 
 Navigate to the project directory:
 
@@ -40,17 +41,29 @@ bash
 
 cd assignment
 
-[Additional setup instructions, if any]
-
 Run the project:
 
-arduino
+Open the Project in Eclipse:
 
-    [Command to run the project/tests]
+Open Eclipse IDE and go to "File" > "Import".
 
-Usage
+Import Maven Project:
 
-[Instructions on how to use/run the project, including any commands or configurations needed]
+In the Import dialog, expand the "Maven" folder and select "Existing Maven Projects".
+
+Select the Project Directory:
+
+Click on "Next" and then browse to the directory where you cloned the Git repository (WU_Assignment). Select the directory and click "Finish".
+
+Wait for Dependencies to be Resolved:
+
+Eclipse will import the Maven project and start downloading its dependencies. Wait for the process to complete.
+
+Run the Project:
+
+Once the project is imported successfully, you can run it by right-clicking on the project in the Project Explorer, selecting "Run As", and then choosing an appropriate run configuration (e.g., "Java Application", "JUnit Test", etc.).
+
+
 Contributing
 
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
@@ -62,9 +75,6 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
     Push to the branch (git push origin feature-name)
     Create a new Pull Request
 
-License
 
-[Include license information here]
-Contact
 
-For any inquiries or feedback, please contact [Your Name] at [Your Email Address].
+For any inquiries or feedback, please contact [Animesh Raj] at [rajanimesh64@gmail.com].
