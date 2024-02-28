@@ -38,31 +38,25 @@ To run the project locally, follow these steps:
 
 Navigate to the project directory:
 
-bash
-
-cd assignment
+    cd assignment
 
 Run the project:
 
-Open the Project in Eclipse:
-
-Open Eclipse IDE and go to "File" > "Import".
+    Open the Project in Eclipse:
+    Open Eclipse IDE and go to "File" > "Import".
 
 Import Maven Project:
 
-In the Import dialog, expand the "Maven" folder and select "Existing Maven Projects".
-
-Select the Project Directory:
-
-Click on "Next" and then browse to the directory where you cloned the Git repository (WU_Assignment). Select the directory and click "Finish".
+    In the Import dialog, expand the "Maven" folder and select "Existing Maven Projects".
+    Select the Project Directory:
+    Click on "Next" and then browse to the directory where you cloned the Git repository (WU_Assignment). Select the directory and click "Finish".
 
 Wait for Dependencies to be Resolved:
-
-Eclipse will import the Maven project and start downloading its dependencies. Wait for the process to complete.
+    Eclipse will import the Maven project and start downloading its dependencies. Wait for the process to complete.
 
 Run the Project:
 
-Once the project is imported successfully, you can run it by right-clicking on the project in the Project Explorer, selecting "Run As", and then choosing an appropriate run configuration (e.g., "Java Application", "JUnit Test", etc.).
+    Once the project is imported successfully, you can run it by right-clicking on the project in the Project Explorer, selecting "Run As", and then choosing an appropriate run configuration (e.g., "Java Application", "JUnit Test", etc.).
 
 
 Contributing
