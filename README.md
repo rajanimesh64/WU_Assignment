@@ -30,10 +30,11 @@ Setup Instructions
 To run the project locally, follow these steps:
 
     Clone the repository:
+    git clone https://github.com/rajanimesh64/WU_Assignment.git
 
-    bash
 
-git clone https://github.com/rajanimesh64/WU_Assignment.git
+
+
 
 Navigate to the project directory:
 
